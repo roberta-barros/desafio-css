@@ -187,12 +187,73 @@ body {
   margin-left: 4%;
   margin-right: 4%;
   justify-content: center;
+  align-content: center;
   font-family: 'Permanent Marker', cursive;
   font-weight: bold;
-  color: #808080;
+  color: #4c4c4c;
 }
 
-p {
-  display: flex;
-  justify-content: center;
+.card-color-1 {
+  background-color: #ead3a7;
+  border: 0.4px solid #ead3a7;
+}
+
+.card-color-2 {
+  background-color: #9de0f5;
+  border: 0.4px solid #9de0f5;
+}
+
+.card-color-3 {
+  background-color: #ef89ba;
+  border: 0.4px solid #ef89ba;
+}
+
+.card-color-4 {
+  background-color: #fae890;
+  border: 0.4px solid #fae890;
+}
+
+.card-color-5 {
+  background-color: #abe9c1;
+  border: 0.4px solid #abe9c1;
+}
+
+.card-rotation-1 {
+  transform: rotate(5deg);
+}
+
+.card-rotation-2 {
+  transform: rotate(-5deg);
+}
+
+.card-rotation-3 {
+  transform: rotate(5deg);
+}
+
+.card-rotation-4 {
+  transform: rotate(-5deg);
+}
+
+.card-rotation-5 {
+  transform: rotate(-4deg);
+}
+
+.card-rotation-6 {
+  transform: rotate(6deg);
+}
+
+.card-rotation-7 {
+  transform: rotate(4deg);
+}
+
+.card-rotation-8 {
+  transform: rotate(-5deg);
+}
+
+.card-rotation-9 {
+  transform: rotate(3deg);
+}
+
+.card-rotation-10 {
+  transform: rotate(-5deg);
 }
